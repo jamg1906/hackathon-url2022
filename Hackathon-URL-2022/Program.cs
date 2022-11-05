@@ -15,7 +15,6 @@ namespace Hackathon_URL_2022
                     Console.Clear();
                     if (input == "1")
                     {
-                        Scramble scramble = new Scramble();
                         Console.WriteLine("Problema 1: Scramble, por favor ingrese dos cadenas");
                         Console.WriteLine("Cadena 1: ");
                         string a = Console.ReadLine();
@@ -29,7 +28,7 @@ namespace Hackathon_URL_2022
                             throw new Exception();
                         }
 
-                        Console.WriteLine("Resultado: " + scramble.ScrambleSolution(a, b).ToString());
+                        Console.WriteLine("Resultado: " + Scramble.ScrambleSolution(a, b).ToString());
 
                         Console.ReadKey();
                         Console.Clear();
@@ -38,7 +37,8 @@ namespace Hackathon_URL_2022
                     {
                         Console.WriteLine("Problema 2: Justificador de Texto");
                         string[] test = { "This is an", "example of text", "justification." };
-                        var res = new JustificadorTexto().JustificadorTextoSolution(test, 16);
+                        
+                        var res = JustificadorTexto.JustificadorTextoSolution(test, 16);
                         foreach (string s in res)
                         {
                             Console.WriteLine(s);
@@ -50,19 +50,26 @@ namespace Hackathon_URL_2022
                     }
                     else if (input == "3")
                     {
+                        Console.WriteLine("Problema 3: Cadenas Subsecuentes");
+                        Console.WriteLine("Ingrese la primer cadena");
+                        string c1 = Console.ReadLine();
+                        Console.WriteLine("Ingrese la segunda cadena");
+                        string c2 = Console.ReadLine();
+                        Console.WriteLine("La cadena subsecuente es: " + CadenasSubsecuentes.subsecuente(c1, c2));
+                        Console.ReadKey();  
+                        Console.Clear();
 
                     }
                     else if (input == "4")
                     {
                         Console.WriteLine("Problema 4: Abuela Binaria");
-                        AbuelaBinaria abuelaBinaria = new AbuelaBinaria();
                         Console.WriteLine("Ingrese el primer número");
                         int n1 = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Ingrese el segundo número");
                         int n2 = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Ingrese el resultado de la suma");
                         int res = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("La abuela dará: " + abuelaBinaria.AbuelaBinariaSolution(n1, n2, res) + " avellanas.");
+                        Console.WriteLine("La abuela dará: " + AbuelaBinaria.AbuelaBinariaSolution(n1, n2, res) + " avellanas.");
                         Console.ReadKey();
                         Console.Clear();
 
@@ -79,6 +86,9 @@ namespace Hackathon_URL_2022
         }
 
         static void mensaje() {
+            Console.WriteLine("Hackathon URL 2022");
+            Console.WriteLine("Joshua Raúl Váley Porras - 1014416");
+            Console.WriteLine("Javier Andrés Morales González - 1210219");
             Console.WriteLine("Por favor ingrese una opción: ");
             Console.WriteLine("1. Scramble");
             Console.WriteLine("2. Justificador de Texto");

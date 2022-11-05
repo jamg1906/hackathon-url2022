@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public class AbuelaBinaria
+    public static class AbuelaBinaria
     {
-        public int AbuelaBinariaSolution(int n1, int n2, int res)
+        public static int AbuelaBinariaSolution(int n1, int n2, int res)
         {
             if ((n1 + n2) != res)
             {

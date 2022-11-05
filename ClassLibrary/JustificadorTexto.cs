@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public  class JustificadorTexto
+    public static class JustificadorTexto
     {
-        public string[] JustificadorTextoSolution(string[] texto, int max)
+        public static string[] JustificadorTextoSolution(string[] texto, int max)
         {
             for (int i = 0; i < texto.Length; i++)
             {

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public class Scramble
+    public static class Scramble
     {
 
-        public bool ScrambleSolution(string a, string b)
+        public static bool ScrambleSolution(string a, string b)
         {
             string a2 = new string(a.ToUpper().OrderBy(x => x).ToArray());
             string b2 = new string(b.ToUpper().OrderBy(x => x).ToArray());
