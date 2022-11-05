@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "ClassLibrary/1.0.0": {
-      "type": "project",
-      "path": "../ClassLibrary/ClassLibrary.csproj",
-      "msbuildProject": "../ClassLibrary/ClassLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "ClassLibrary >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\jamg1\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jamg1\\source\\repos\\Hackathon-URL-2022\\Hackathon-URL-2022\\Hackathon-URL-2022.csproj",
-      "projectName": "Hackathon-URL-2022",
-      "projectPath": "C:\\Users\\jamg1\\source\\repos\\Hackathon-URL-2022\\Hackathon-URL-2022\\Hackathon-URL-2022.csproj",
+      "projectUniqueName": "C:\\Users\\jamg1\\source\\repos\\Hackathon-URL-2022\\ClassLibrary\\ClassLibrary.csproj",
+      "projectName": "ClassLibrary",
+      "projectPath": "C:\\Users\\jamg1\\source\\repos\\Hackathon-URL-2022\\ClassLibrary\\ClassLibrary.csproj",
       "packagesPath": "C:\\Users\\jamg1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jamg1\\source\\repos\\Hackathon-URL-2022\\Hackathon-URL-2022\\obj\\",
+      "outputPath": "C:\\Users\\jamg1\\source\\repos\\Hackathon-URL-2022\\ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,11 +38,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\jamg1\\source\\repos\\Hackathon-URL-2022\\ClassLibrary\\ClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\jamg1\\source\\repos\\Hackathon-URL-2022\\ClassLibrary\\ClassLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

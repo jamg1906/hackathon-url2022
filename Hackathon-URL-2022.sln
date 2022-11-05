@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon-URL-2022", "Hackathon-URL-2022\Hackathon-URL-2022.csproj", "{4D1E44C5-F1B7-4F6B-8A26-176D627C3E0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{3ADD3240-6615-411E-AEDA-CAF8AFC73AB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4D1E44C5-F1B7-4F6B-8A26-176D627C3E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D1E44C5-F1B7-4F6B-8A26-176D627C3E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D1E44C5-F1B7-4F6B-8A26-176D627C3E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADD3240-6615-411E-AEDA-CAF8AFC73AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADD3240-6615-411E-AEDA-CAF8AFC73AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADD3240-6615-411E-AEDA-CAF8AFC73AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADD3240-6615-411E-AEDA-CAF8AFC73AB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
