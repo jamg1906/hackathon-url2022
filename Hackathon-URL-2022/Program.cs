@@ -36,9 +36,13 @@ namespace Hackathon_URL_2022
                     else if (input == "2")
                     {
                         Console.WriteLine("Problema 2: Justificador de Texto");
+                        Console.WriteLine("Ingrese el número de caracteres máximo por línea: ");
+                        int max = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("En el código agregue su arreglo de strings, por defecto se encuentra el ejemplo brindado. ");
                         string[] test = { "This is an", "example of text", "justification." };
                         
-                        var res = JustificadorTexto.JustificadorTextoSolution(test, 16);
+                        var res = JustificadorTexto.JustificadorTextoSolution(test, max);
                         foreach (string s in res)
                         {
                             Console.WriteLine(s);
